@@ -1,0 +1,29 @@
+// general settings for the project
+* {
+  // we don't want to add borders to our box size
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+// light animation by default for links and buttons, and for a class .anime
+a,
+a:hover,
+button,
+button:hover,
+.anime {
+  transition: all 200ms linear;
+  cursor: pointer; //just for buttons, because links have it by default
+}
+
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}

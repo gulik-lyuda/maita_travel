@@ -1,0 +1,98 @@
+@import "_settings.scss";
+@import "_colors.scss";
+@import "_sizes.scss";
+@import "_fonts.scss";
+@import "_flex_grid_classes.scss";
+
+.our-portfolio_wrapper {
+  width: 100%;
+  height: auto;
+  padding: 5vw $wsize-175px $wsize-300px $wsize-165px;
+  margin-top: -7vw;
+
+  position: relative;
+
+  background-image: url('../../assets/backgrounds/our_portfolio_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  .section_title,
+  .section_content {
+    width: $wsize-665px;
+    height: auto;
+
+    position: relative;
+    top: 10vw;
+    z-index: 5;
+
+    text-align: left;
+  }
+
+  .section_title {
+    margin-bottom: $wsize-81px;
+  }
+
+  .section_content {
+    margin-bottom: 14vw;
+  }
+
+  .partners {
+    margin-bottom: $wsize-165px;
+
+    img {
+      margin-right: $wsize-95px;
+      margin-bottom: $wsize-56px;
+    }
+
+    .logo_1 {
+      width: 14.01vw;
+      height: auto;
+    }
+
+    .logo_2 {
+      width: 12.03vw;
+      height: auto;
+    }
+
+    .logo_3 {
+      width: 13.91vw;
+      height: auto;
+    }
+
+    .logo_4 {
+      width: 16.04vw;
+      height: auto;
+    }
+
+    .logo_5 {
+      width: 11.3vw;
+      height: auto;
+    }
+
+    .logo_6 {
+      width: 20vw;
+      height: auto;
+    }
+
+    .logo_7 {
+      width: 13.7vw;
+      height: auto;
+    }
+  }
+  // end of .partners
+
+  .programs_list {
+    width: $wsize-640px;
+    margin-bottom: $wsize-385px;
+
+    align-self: flex-end;
+
+    font-size: $font-size-22px;
+    font-weight: normal;
+    line-height: 1.82;
+    text-align: right;
+    color: $font-dark-grey;
+  }
+}
+// end of .our-portfolio_wrapper

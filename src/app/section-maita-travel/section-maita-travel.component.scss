@@ -1,0 +1,42 @@
+@import "_settings.scss";
+@import "_colors.scss";
+@import "_sizes.scss";
+@import "_fonts.scss";
+@import "_flex_grid_classes.scss";
+
+.section-maita-travel_wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0 $wsize-175px 0 $wsize-165px;
+  margin-top: -18vw;
+
+  z-index: 4;
+
+  background-image: url('../../assets/backgrounds/section_maita_travel_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  .section_title,
+  .section_content {
+    width: $wsize-665px;
+    height: auto;
+
+    position: relative;
+    top: 20vw;
+    z-index: 5;
+
+    text-align: right;
+  }
+
+  .section_title {
+    margin-bottom: $wsize-81px;
+  }
+
+  .section_content {
+    margin-bottom: $wsize-1050px;
+  }
+}
+// end of .section-maita-travel_wrapper
+
+

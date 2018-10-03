@@ -1,0 +1,52 @@
+@import "_settings.scss";
+@import "_colors.scss";
+@import "_sizes.scss";
+@import "_fonts.scss";
+@import "_flex_grid_classes.scss";
+
+.about-us_wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0 $wsize-175px $wsize-300px $wsize-165px;
+  margin-top: -13.4vw;
+
+  position: relative;
+  z-index: -1;
+
+  background-image: url('../../assets/backgrounds/about_us_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  .section_title,
+  .section_content {
+    width: $wsize-665px;
+    height: auto;
+
+    position: relative;
+    top: 16vw;
+    z-index: 5;
+
+    text-align: left;
+  }
+
+  .section_title {
+    margin-bottom: $wsize-81px;
+  }
+
+  .section_content {
+    margin-bottom: $wsize-81px;
+  }
+
+  .network {
+    width: $wsize-1217px;
+    height: auto;
+    margin: 15vw auto 0;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+// end of .about-us_wrapper

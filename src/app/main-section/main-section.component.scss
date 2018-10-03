@@ -1,0 +1,89 @@
+@import "_settings.scss";
+@import "_colors.scss";
+@import "_sizes.scss";
+@import "_fonts.scss";
+@import "_flex_grid_classes.scss";
+
+.main-section_wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0 $wsize-175px 0 $wsize-165px;
+
+  position: relative;
+  z-index: 5;
+
+  background-image: url('../../assets/backgrounds/main_section_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+// end of .main-sextion_wrapper
+
+.main-section_content {
+  h1 {
+    width: $wsize-385px;
+    padding-bottom: $wsize-300px;
+
+    font-size: $font-szie-62px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $font-blue;
+  }
+
+  .slogan {
+    margin-left: -$wsize-56px;
+    margin-bottom: $wsize-310px;
+
+    font-size: $font-size-33px;
+    line-height: 1.46;
+    color: $font-dark-grey;
+
+    span {
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $font-blue;
+    }
+  }
+}
+// end of .main-section_content
+
+.socials {
+  width: $wsize-81px;
+  height: $wsize-232px;
+  padding: $wsize-25px $wsize-20px;
+
+  position: absolute;
+  top: 50%;
+  right: $wsize-44px;
+  transform: translate(0, -95%);
+
+  border: 7px solid $bg-orange;
+  border-radius: 40px;
+
+  .icon {
+    margin-bottom: $wsize-47px;
+
+    fill: $font-blue;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      transform: scale(1.5);
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  // end of .icon
+
+  // .facebook_icon {
+  //   width: $wsize-32px;
+  //   height: $wsize-47px;
+  // }
+  // end of .facebook_icon
+}
+// end of .socials

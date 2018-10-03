@@ -1,0 +1,83 @@
+@import "_settings.scss";
+@import "_colors.scss";
+@import "_sizes.scss";
+@import "_fonts.scss";
+@import "_flex_grid_classes.scss";
+
+.contact-us_wrapper {
+  width: 100%;
+  height: auto;
+  padding: 27vw 5vw 0 60vw;
+  margin-top: -45vw;
+
+  position: relative;
+
+  background-image: url('../../assets/backgrounds/contact_us_bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+
+  .section_title {
+    width: $wsize-665px;
+    height: auto;
+
+    position: relative;
+    z-index: 5;
+
+    text-align: center;
+  }
+
+  .section_subtitle {
+    margin-bottom: $wsize-56px;
+
+    font-size: $font-size-18px;
+    text-transform: uppercase;
+    color: $font-blue;
+
+    img {
+      margin: 1vw;
+    }
+  }
+  // end of .section_subtitle
+
+  .phones {
+    margin-bottom: $wsize-56px;
+
+    .column {
+      margin-right: $wsize-32px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    p {
+      font-size: $font-size-18px;
+      line-height: 2.22;
+      text-align: center;
+      color: $font-dark-grey;
+    }
+
+    .phone {
+      width: $wsize-232px;
+      height: $wsize-66px;
+      margin-bottom: $wsize-20px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      border: 3px solid $bg-orange;
+
+      font-size: $font-size-22px;
+      color: $font-dark-grey;
+    }
+    // end of .phone
+  }
+  // end of .phones
+
+  .email {
+    margin-bottom: 4.3vw;
+  }
+}
+// end of .contact-us_wrapper

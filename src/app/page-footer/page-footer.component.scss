@@ -1,0 +1,17 @@
+@import "_settings.scss";
+@import "_colors.scss";
+@import "_sizes.scss";
+@import "_fonts.scss";
+@import "_flex_grid_classes.scss";
+
+.page-footer_wrapper {
+  width: 100%;
+  height: $wsize-66px;
+
+  background-color: $bg-dark-grey;
+
+  font-size: $font-size-16px;
+  color: $font-light-grey;
+}
+
+// end of .page-footer_wrapper

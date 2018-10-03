@@ -1,0 +1,28 @@
+@import "_settings.scss";
+@import "_colors.scss";
+@import "_sizes.scss";
+@import "_fonts.scss";
+@import "_flex_grid_classes.scss";
+
+.section_title {
+  font-size: $font-size-55px;
+  font-weight: normal;
+  color: $font-blue;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.section_content {
+  font-size: $font-size-22px;
+  line-height: 1.82;
+  color: $font-dark-grey;
+
+  span {
+    padding: 0 10px 3px;
+    border: 3px solid $font-blue;
+
+    font-weight: bold;
+  }
+}
