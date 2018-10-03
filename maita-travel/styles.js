@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\MyData\Бизнес\Upwork\in progress\Maita Travel\maita-travel\src\styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! C:\MyData\portfolio_projects\maita_travel\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })

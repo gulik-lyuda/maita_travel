@@ -5473,7 +5473,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\MyData\Бизнес\Upwork\in progress\Maita Travel\maita-travel\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\MyData\portfolio_projects\maita_travel\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })
